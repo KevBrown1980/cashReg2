@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Cash Register</title>
+</head>
+
+<body>
+  <h1>Cash Register App</h1>
+  <h3>IN</h3>
+  <label for="price">Price</label>
+  <input type="number" id="price" name="price" /><br /><br />
+  <label for="cash">Cash received</label>
+  <input type="number" id="cash" name="cash" /><br />
+  <p>Cash in drawer (CID)</p>
+  <label for="penny">Penny</label>
+  <input type="number" id="pennynumber" name="pennynumber"> <br></br>
+  <label for="nickel">Nickel</label>
+  <input type="number" id="nickelnumber" name="nickelnumber" /><br /><br />
+  <label for="dime">Dime</label>
+  <input type="number" id="dimenumber" name="dimenumber"><br /><br />
+  <label for="quarter">Quarter</label>
+  <input type="number" id="quarternumber" name="quarternumber"><br /><br />
+  <label for="dollar">Dollar</label>
+  <input type="number" id="dollarnumber" name="dollarnumber"><br /><br />
+  <label for="fivedollars">Five Dollars</label>
+  <input type="number" id="fivedollarsnumber" name="fivedollarsnumber"> <br></br>
+  <label for="tendollars">Ten Dollars</label>
+  <input type="number" id="tendollarsnumber" name="tendollarsnumber" /><br /><br />
+  <label for="twentydollars">Twenty Dollars</label>
+  <input type="number" id="twentydollarsnumber" name="twentydollarsnumber" /> <br /><br />
+  <label for="onehundreddollars">One-hundred Dollars</label>
+  <input type="number" id="onehundreddollarsnumber" name="onehundreddollarsnumber" /><br /><br />
+  <button type="moneyin" onclick="getInputs()">Calculate</button>
+  <h3>OUT</h3>
+  <h4>Status:</h4>
+  <p id=status></p>
+
+  <h4>Change:</h4>
+  <p id=change></p>
+
+  <script src="script.js" type="text/javascript"></script>
+</body>
+
+</html>
